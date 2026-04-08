@@ -98,7 +98,12 @@ li a:hover {
     margin-left: 20px;
     width: 85vw;
     height: 86vh;
+    overflow-y:fit-content;
     background: linear-gradient(to bottom, #ffffff, #cfe1ff);
+    overflow-y: auto;
+}
+
+.overflow {
     overflow-y: auto;
 }
 
@@ -126,4 +131,20 @@ li a:hover {
     margin:0;
     padding: 10px;
     font-weight: bold;
+}
+
+.text-box {
+    background-color: aliceblue;
+    border-top: 1px solid rgb(232, 232, 232);
+    border-left: 1px solid rgb(232,232,232);
+    border-bottom: 1px solid rgb(155, 155, 155);
+    border-right: 1px solid rgb(155,155,155);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.reference {
+    padding-left: 36px;
+    text-indent: -36px;
 }
