@@ -97,7 +97,7 @@ h3 {
     margin-top:10px;
     margin-left: 20px;
     width: 85vw;
-    height: 86vh;
+    height: 80vh;
     overflow-y:fit-content;
     background: linear-gradient(to bottom, #ffffff, #cfe1ff);
     overflow-y: auto;
@@ -108,8 +108,8 @@ h3 {
 }
 
 @keyframes scroll-left {
-    from { transform:translateX(-100%)}
-    to {transform:translateX(100%);}
+    from { transform:translateX(100%)}
+    to {transform:translateX(-100%);}
 }
 
 .body-title {
